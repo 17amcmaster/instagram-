@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vdo-aV-2Hq">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="SFd-y3-kxb">
+            <objects>
+                <viewController id="Skg-Op-6PW" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mFD-lB-4gT"/>
+                        <viewControllerLayoutGuide type="bottom" id="j22-zj-RER"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3yb-mB-GlQ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eoG-bg-Wao" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2394" y="-544"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Instagram_" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bAj-13-3Qq">
+                                <rect key="frame" x="142" y="20" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="35"/>
+                                <color key="textColor" red="0.60784313725490191" green="0.69803921568627447" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Instagram 2.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="34n-If-zU8">
+                                <rect key="frame" x="147" y="154" width="307" height="84"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="51"/>
+                                <color key="textColor" red="0.8254847526550293" green="0.33544578585383023" blue="0.5107626094113985" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VxD-zW-nrF">
+                                <rect key="frame" x="283" y="288" width="34" height="36"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="32"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" red="0.63400582253243354" green="0.12609112286749879" blue="0.82548475269999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="OAG-Fg-PJA" kind="show" id="jrl-nU-InR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.82548475269999999" green="0.33544578590000002" blue="0.51076260939999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="bAj-13-3Qq" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="1NI-bZ-fk6"/>
+                            <constraint firstItem="34n-If-zU8" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" constant="221" id="5N4-yg-lA2">
+                                <variation key="heightClass=compact" constant="112"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="214"/>
+                            </constraint>
+                            <constraint firstAttribute="centerX" secondItem="bAj-13-3Qq" secondAttribute="centerX" constant="31.5" id="9Bx-ao-O87"/>
+                            <constraint firstAttribute="centerX" secondItem="34n-If-zU8" secondAttribute="centerX" constant="-33" id="zwe-UO-oxA">
+                                <variation key="heightClass=compact" constant="-18"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="-21"/>
+                            </constraint>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="gcb-nC-mNM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="695" y="-150"/>
+        </scene>
+        <!--Photos-->
+        <scene sceneID="t1j-Kp-Ztj">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Eik-5i-Mel" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="OAG-Fg-PJA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ech-ze-qpN"/>
+                        <viewControllerLayoutGuide type="bottom" id="K7a-8f-FGG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleAspectFit" id="OZv-74-2MM">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QIX-iX-yJy">
+                                <rect key="frame" x="198" y="6" width="30" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" red="0.64510016236152712" green="0.13712410452459772" blue="0.82548475269999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <view contentMode="center" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QqU-oR-Y5G">
+                                <rect key="frame" x="6" y="26" width="415" height="548"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_7811 (1).jpg" translatesAutoresizingMaskIntoConstraints="NO" id="To0-pv-Q0h">
+                                        <rect key="frame" x="7" y="0.0" width="128" height="128"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_6308.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="7cL-X8-6UA">
+                                        <rect key="frame" x="144" y="272" width="128" height="128"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_5768.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="dLi-WH-CAX">
+                                        <rect key="frame" x="280" y="272" width="128" height="128"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="qBm-Df-h6F">
+                                        <rect key="frame" x="144" y="408" width="128" height="128"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_4745.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dBN-VY-9PW">
+                                        <rect key="frame" x="279" y="408" width="128" height="128"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FullSizeRender-2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zt8-D6-9G7">
+                                        <rect key="frame" x="8" y="408" width="128" height="128"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_7340.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="iVk-VL-BOL">
+                                        <rect key="frame" x="143" y="0.0" width="128" height="128"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_6288.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="vEY-Mk-lsS">
+                                        <rect key="frame" x="279" y="136" width="128" height="128"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FullSizeRender.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="GGi-6B-E8a">
+                                        <rect key="frame" x="279" y="0.0" width="128" height="128"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FullSizeRender-1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="HFW-DI-plX">
+                                        <rect key="frame" x="8" y="272" width="128" height="128"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_6795.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="hDl-xq-MHs">
+                                        <rect key="frame" x="7" y="136" width="128" height="128"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_6695.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="xrs-ua-iti">
+                                        <rect key="frame" x="143" y="136" width="128" height="128"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QqU-oR-Y5G" firstAttribute="centerX" secondItem="OZv-74-2MM" secondAttribute="centerX" id="Mrf-Vh-lgf"/>
+                            <constraint firstItem="QqU-oR-Y5G" firstAttribute="centerY" secondItem="OZv-74-2MM" secondAttribute="centerY" id="oCW-fO-cUU"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Photos" id="ToA-f5-wjP">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="37t-yY-Kz8">
+                            <connections>
+                                <segue destination="Skg-Op-6PW" kind="show" id="oxz-iQ-AOq"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1633" y="-459"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="jtS-IN-vmr">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vdo-aV-2Hq" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="EJF-ZU-MJZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="McF-kt-kdF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9bX-Su-4Zb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-241" y="709"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="FullSizeRender-1.jpg" width="3124" height="2128"/>
+        <image name="FullSizeRender-2.jpg" width="1610" height="1142"/>
+        <image name="FullSizeRender.jpg" width="3110" height="2398"/>
+        <image name="IMG_4745.jpg" width="2448" height="3059"/>
+        <image name="IMG_5768.JPG" width="2448" height="3057"/>
+        <image name="IMG_6288.jpg" width="1113" height="1113"/>
+        <image name="IMG_6308.JPG" width="1846" height="1267"/>
+        <image name="IMG_6695.JPG" width="1912" height="1432"/>
+        <image name="IMG_6795.JPG" width="3010" height="2398"/>
+        <image name="IMG_7340.JPG" width="3872" height="2589"/>
+        <image name="IMG_7811 (1).jpg" width="2294" height="1530"/>
+        <image name="Image" width="2720" height="3397"/>
+    </resources>
+</document>

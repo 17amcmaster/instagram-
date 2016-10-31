@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		369FF95E1D8C922300173051 /* LayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369FF95D1D8C922300173051 /* LayoutViewController.swift */; };
 		36D377E51D8711CD009E0E3C /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D377E41D8711CD009E0E3C /* PhotoModel.swift */; };
 		B613805D1D86312400A5967D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B613805C1D86312400A5967D /* AppDelegate.swift */; };
 		B613805F1D86312400A5967D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B613805E1D86312400A5967D /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		369FF95D1D8C922300173051 /* LayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutViewController.swift; sourceTree = "<group>"; };
 		36D377E41D8711CD009E0E3C /* PhotoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
 		B61380591D86312400A5967D /* Instagram+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instagram+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B613805C1D86312400A5967D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				B613805C1D86312400A5967D /* AppDelegate.swift */,
 				B613805E1D86312400A5967D /* ViewController.swift */,
 				B61380601D86312400A5967D /* Main.storyboard */,
+				369FF95D1D8C922300173051 /* LayoutViewController.swift */,
 				36D377E41D8711CD009E0E3C /* PhotoModel.swift */,
 				B61380631D86312400A5967D /* Assets.xcassets */,
 				B61380651D86312400A5967D /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			files = (
 				36D377E51D8711CD009E0E3C /* PhotoModel.swift in Sources */,
 				B613805F1D86312400A5967D /* ViewController.swift in Sources */,
+				369FF95E1D8C922300173051 /* LayoutViewController.swift in Sources */,
 				B613805D1D86312400A5967D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

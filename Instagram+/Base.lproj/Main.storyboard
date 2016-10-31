@@ -7,24 +7,6 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="SFd-y3-kxb">
-            <objects>
-                <viewController id="Skg-Op-6PW" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="mFD-lB-4gT"/>
-                        <viewControllerLayoutGuide type="bottom" id="j22-zj-RER"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="3yb-mB-GlQ">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eoG-bg-Wao" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2394" y="-544"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Instagram_" customModuleProvider="target" sceneMemberID="viewController">
@@ -42,14 +24,8 @@
                                 <color key="textColor" red="0.60784313725490191" green="0.69803921568627447" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Instagram 2.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="34n-If-zU8">
-                                <rect key="frame" x="147" y="154" width="307" height="84"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="51"/>
-                                <color key="textColor" red="0.8254847526550293" green="0.33544578585383023" blue="0.5107626094113985" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VxD-zW-nrF">
-                                <rect key="frame" x="283" y="288" width="34" height="36"/>
+                                <rect key="frame" x="156" y="216" width="34" height="36"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="32"/>
                                 <state key="normal" title="+">
                                     <color key="titleColor" red="0.63400582253243354" green="0.12609112286749879" blue="0.82548475269999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -58,6 +34,12 @@
                                     <segue destination="OAG-Fg-PJA" kind="show" id="jrl-nU-InR"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Instagram" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="34n-If-zU8">
+                                <rect key="frame" x="20" y="108" width="307" height="84"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="51"/>
+                                <color key="textColor" red="0.8254847526550293" green="0.33544578585383023" blue="0.5107626094113985" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.82548475269999999" green="0.33544578590000002" blue="0.51076260939999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -83,8 +65,7 @@
         <!--Photos-->
         <scene sceneID="t1j-Kp-Ztj">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Eik-5i-Mel" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="OAG-Fg-PJA" sceneMemberID="viewController">
+                <viewController id="OAG-Fg-PJA" customClass="LayoutViewController" customModule="Instagram_" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ech-ze-qpN"/>
                         <viewControllerLayoutGuide type="bottom" id="K7a-8f-FGG"/>
@@ -107,40 +88,12 @@
                                         <rect key="frame" x="7" y="0.0" width="128" height="128"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_6308.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="7cL-X8-6UA">
-                                        <rect key="frame" x="144" y="272" width="128" height="128"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_5768.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="dLi-WH-CAX">
-                                        <rect key="frame" x="280" y="272" width="128" height="128"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="qBm-Df-h6F">
-                                        <rect key="frame" x="144" y="408" width="128" height="128"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_4745.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dBN-VY-9PW">
-                                        <rect key="frame" x="279" y="408" width="128" height="128"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FullSizeRender-2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zt8-D6-9G7">
-                                        <rect key="frame" x="8" y="408" width="128" height="128"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                    </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_7340.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="iVk-VL-BOL">
                                         <rect key="frame" x="143" y="0.0" width="128" height="128"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_6288.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="vEY-Mk-lsS">
-                                        <rect key="frame" x="279" y="136" width="128" height="128"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                    </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FullSizeRender.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="GGi-6B-E8a">
                                         <rect key="frame" x="279" y="0.0" width="128" height="128"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FullSizeRender-1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="HFW-DI-plX">
-                                        <rect key="frame" x="8" y="272" width="128" height="128"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_6795.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="hDl-xq-MHs">
@@ -149,6 +102,34 @@
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_6695.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="xrs-ua-iti">
                                         <rect key="frame" x="143" y="136" width="128" height="128"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_6288.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="vEY-Mk-lsS">
+                                        <rect key="frame" x="279" y="136" width="128" height="128"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FullSizeRender-1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="HFW-DI-plX">
+                                        <rect key="frame" x="8" y="272" width="128" height="128"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_6308.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="7cL-X8-6UA">
+                                        <rect key="frame" x="144" y="272" width="128" height="128"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_5768.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="dLi-WH-CAX">
+                                        <rect key="frame" x="280" y="272" width="128" height="128"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FullSizeRender-2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zt8-D6-9G7">
+                                        <rect key="frame" x="8" y="408" width="128" height="128"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="qBm-Df-h6F">
+                                        <rect key="frame" x="144" y="408" width="128" height="128"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_4745.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dBN-VY-9PW">
+                                        <rect key="frame" x="279" y="408" width="128" height="128"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     </imageView>
                                 </subviews>
@@ -163,15 +144,30 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Photos" id="ToA-f5-wjP">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="37t-yY-Kz8">
+                        <barButtonItem key="rightBarButtonItem" title="+" systemItem="add" id="Pud-RT-vS8">
                             <connections>
-                                <segue destination="Skg-Op-6PW" kind="show" id="oxz-iQ-AOq"/>
+                                <action selector="openPhotoLibraryButton:" destination="OAG-Fg-PJA" id="KvE-A5-Nb8"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="imageView0" destination="To0-pv-Q0h" id="QKz-DM-k3N"/>
+                        <outlet property="imageView1" destination="iVk-VL-BOL" id="g64-SL-182"/>
+                        <outlet property="imageView10" destination="qBm-Df-h6F" id="iox-uq-IeH"/>
+                        <outlet property="imageView11" destination="dBN-VY-9PW" id="OOP-cy-Phh"/>
+                        <outlet property="imageView2" destination="GGi-6B-E8a" id="nA3-Zj-Iv4"/>
+                        <outlet property="imageView3" destination="hDl-xq-MHs" id="0ev-N0-A75"/>
+                        <outlet property="imageView4" destination="xrs-ua-iti" id="8Vm-hd-J6A"/>
+                        <outlet property="imageView5" destination="vEY-Mk-lsS" id="gEg-0G-k7r"/>
+                        <outlet property="imageView6" destination="HFW-DI-plX" id="HZF-qV-qBv"/>
+                        <outlet property="imageView7" destination="7cL-X8-6UA" id="JQU-uB-QQ4"/>
+                        <outlet property="imageView8" destination="dLi-WH-CAX" id="A2h-Ka-Ip0"/>
+                        <outlet property="imageView9" destination="zt8-D6-9G7" id="3Nq-ro-lXo"/>
+                    </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Eik-5i-Mel" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1633" y="-459"/>
+            <point key="canvasLocation" x="1739" y="-595"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="jtS-IN-vmr">
